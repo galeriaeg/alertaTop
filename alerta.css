@@ -1,0 +1,37 @@
+	.alert-top{
+		width:70%;
+		margin:0 15%;
+		padding:1%;
+		top:-78px;
+		background:#fff6aa;
+		border-radius:0 0 8px 8px;
+		border:1px solid #e6dea0;
+		position:fixed;
+		z-index:150;
+		box-shadow:0px -2px 10px #777;
+		transition:0.5s;
+	}
+	
+	.icon-alerta{
+		color:#867d31;
+		font-size:2em;
+		float:left;
+	}
+	
+	.icon-close{
+		color:red;
+		font-size:2em;
+		float:right;
+		cursor:pointer;
+	}
+	i.icon-close:hover{
+		color:#fd652a;
+	}
+	
+	.texto{
+		font:normal 1em "Trebuchet MS",Tahoma;
+		margin:7px 0 0 10px;
+		color:#444;
+		display:block;
+		float:left;
+	}
